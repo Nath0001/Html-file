@@ -1,0 +1,160 @@
+/* Styling our Homepage */
+body {
+  font-family:  Arial, sans-serif;
+  background-color: white;
+  padding: 10px 100px 0px 100px;
+  margin: 0;
+  overflow-x: auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: -2%;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+
+/* Nav Styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 350px;
+  list-style: none;
+  gap: 50px;
+  font-size: 1.5em;
+}
+
+nav a {
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+
+.login a {
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-decoration: none;
+}
+/* Sign In Styles*/
+.btn {
+  justify-content: right;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: black;
+  background-color: rgb(182, 177, 177);
+  cursor: pointer;
+}
+
+.Sikwens-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Sikwens-text {
+  margin-top: -5%;
+  font-size: 15px;
+  width: 100%;
+}
+
+.Maths {
+  font-weight: 30;
+  display: inline-block;
+}
+
+p {
+  color: rgb(97, 83, 83);
+}
+
+  img {
+    width: 500px; /* Increase the width */
+    height: 200px; /* Increase the height */
+    padding-top: 40px;
+    padding-left: 80px;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    max-width: 100%;
+    display: block;
+  }
+
+  .navigation-button {
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Arrow Styles */
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.arrow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.arrow-right,
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  transition: transform 0.3s;
+}
+
+.arrow-right {
+  border-left: 5px solid white;
+}
+
+.arrow-left {
+  border-right: 5px solid white;
+}
+
+.arrow-button:hover {
+  background-color: lightblue;
+}
+
+
+
+
+  
+
+
+
+
+
+
